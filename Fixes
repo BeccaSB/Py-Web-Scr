@@ -1,0 +1,22 @@
+You may encounter a 403 error:
+A 403 error typically means that the server is refusing to fulfill the request, usually because the user does not have the necessary permissions for the resource. In this case, it's possible that Indeed is blocking your request because it detects that you are scraping their site.
+
+
+To fix this issue, you can try the following
+
+Add headers to your request: Sometimes websites block requests that don't have the proper headers. 
+You can try adding headers to your request to make it look more like a legitimate browser request. 
+For example, you can add a User-Agent header to your request to identify the browser being used.
+
+
+Use a proxy server: A proxy server can act as an intermediary between your computer and the website you're trying to access, 
+which can help you avoid being detected as a bot. There are several proxy services you can use online.
+
+
+Slow down your requests: Sometimes servers are configured to block requests that 
+come in too quickly. You can try adding a delay between requests to avoid being blocked. 
+You can use the time module in Python to add a delay.
+
+It's important to note that web scraping can violate a website's terms of service, 
+and some websites may take steps to block scrapers. If you continue to have trouble accessing the data you need, 
+you may need to consider using a different source for your data or seeking permission from the website owner to access their data.
